@@ -1,0 +1,36 @@
+{
+  "name": "mern-in-12",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "concurrently --kill-others \"node index.js \" \"webpack -w\"",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthonydelgado/mern-in-12.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anthonydelgado/mern-in-12/issues"
+  },
+  "homepage": "https://github.com/anthonydelgado/mern-in-12#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongoose": "^4.7.3",
+    "path": "^0.12.7",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "concurrently": "^3.1.0",
+    "webpack": "^1.14.0",
+    "webpack-init": "^0.1.2"
+  }
+}
